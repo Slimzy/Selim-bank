@@ -1,3 +1,4 @@
+<div id="contentad96611"></div>
 <script type="text/javascript">
     (function(d) {
         var params =
@@ -9,12 +10,8 @@
         };
 
         var qs=[];
-        for(var key in params) qs.push(key+'='+encodeURIComponent(params
-
-[key]));
-        var s = d.createElement
-
-('script');s.type='text/javascript';s.async=true;
+        for(var key in params) qs.push(key+'='+encodeURIComponent(params[key]));
+        var s = d.createElement('script');s.type='text/javascript';s.async=true;
         var p = 'https:' == document.location.protocol ? 'https' : 'http';
         s.src = p + "://api.content.ad/Scripts/widget2.aspx?" + qs.join('&');
         d.getElementById("contentad96611").appendChild(s);
